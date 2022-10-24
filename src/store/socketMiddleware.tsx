@@ -6,7 +6,7 @@ import { changeStatus } from "store/slices/socket";
 import { changeChannel, updateChannelsList } from "store/slices";
 import { Channel } from "types";
 
-const host = "http://127.0.0.1:3001";
+const host = "https://jamgg-server.herokuapp.com/";
 const socket = io(host, {
   transports: ["websocket", "polling"],
 });
