@@ -1,0 +1,24 @@
+.root {
+  background-color: rgb(50, 50, 50);
+  color: #fff;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.root h3 {
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.root p {
+  padding: 2rem 0;
+  font-size: 3rem;
+  /* font-weight: bold; */
+}
+
+.canvas {
+  width: 100vw;
+  height: 100vh;
+}
